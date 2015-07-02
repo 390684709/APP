@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  Smart Watch
+
+  Created by user on 14-9-17.
+  Copyright (c) 2014年 Mediatek. All rights reserved.
+*/
+"Find Device" = "Buscar dispositivo";
+"Stop" = "Stop";
+"Connected" = "Connected";
+"Disconnected" = "Desconectado";
+"Connecting" = "Connecting...";
+"In range" = "En el rango";
+"Out of range" = "Fuera de rango";
+"On" = "On";
+"Off" = "Apagado";
+"Far" = "Lejos";
+"Middle" = "Centro";
+"Near" = "Cerca";
+"Smart Watch" = "Smartwatch";
+"Cancel" = "Cancel";
+"NUM"="NUM";
+"Target"="2";
+"Height"="Height(cm)";
+"Weight"="Weight(kg)";
+"Step Count Set"="Step Count Set";
+"< Back"="< Atrás";
+"Done >"="Done >";
+"Setting"="Setting";
+"Pedometer"="Podometro";
+"Step"="Step";
+"0Step"="0Step";
+"step"="step";
+"state"="Estado";
+"alert"="Modificar";
+"DEVICES" = "Dispositivo";
+"Tap to add device" = "Tap to add dispositivo";
+"Searching devices" = "Searching dispositivo...\nTap to stop searching";
+"Forget device" = "Olvidar el dispositivo ?";
+"Warning" = "Warning!";
+"Device name should not be empty" = "Device name should not be empty";
+"OK" = "OK";
+"Forget" = "Forget";
+"Cancel" = "Cancel";
+"Dismiss" = "Dismiss";

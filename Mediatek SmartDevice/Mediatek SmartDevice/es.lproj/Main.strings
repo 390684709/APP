@@ -1,0 +1,141 @@
+
+/* Class = "IBUILabel"; text = "Range size"; ObjectID = "2r4-ox-vEh"; */
+"2r4-ox-vEh.text" = "Range size";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Both the phone and BLE device ring or vibrate when the BLE device meets the range alert conditions"; ObjectID = "3gq-ON-fT9"; */
+"3gq-ON-fT9.footerTitle" = "Both the phone and BLE device ring or vibrate when the BLE device meets the range alert conditions";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Range alert"; ObjectID = "3gq-ON-fT9"; */
+"3gq-ON-fT9.headerTitle" = "Range alert";
+
+/* Class = "IBUILabel"; text = "计步器"; ObjectID = "3tU-tB-9sK"; */
+"3tU-tB-9sK.text" = "计步器";
+
+/* Class = "IBUILabel"; text = "Version 1.1.4"; ObjectID = "5AI-Ob-DRO"; */
+"5AI-Ob-DRO.text" = "Version 1.1.4";
+
+/* Class = "IBUILabel"; text = "Alert"; ObjectID = "6LP-tU-UaZ"; */
+"6LP-tU-UaZ.text" = "Alert";
+
+/* Class = "IBUILabel"; text = "Disconnected"; ObjectID = "78M-6b-nAd"; */
+"78M-6b-nAd.text" = "Disconnected";
+
+/* Class = "IBUIButton"; normalTitle = "Forget this device"; ObjectID = "7Dk-kF-wCh"; */
+"7Dk-kF-wCh.normalTitle" = "Forget this device";
+
+/* Class = "IBUILabel"; text = "Near"; ObjectID = "Fsx-MO-osx"; */
+"Fsx-MO-osx.text" = "Near";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Range Size may change because of the device signal strength, Certain elements can weaken the strength such as our body, walls and other obstructions."; ObjectID = "IiS-HB-bkc"; */
+"IiS-HB-bkc.footerTitle" = "Range Size may change because of the device signal strength, Certain elements can weaken the strength such as our body, walls and other obstructions.";
+
+/* Class = "IBUILabel"; text = "Middle"; ObjectID = "JEk-s0-9MI"; */
+"JEk-s0-9MI.text" = "Middle";
+
+/* Class = "IBUITabBarItem"; title = "警报"; ObjectID = "Js5-ly-Cvu"; */
+"Js5-ly-Cvu.title" = "警报";
+
+/* Class = "IBUILabel"; text = "Alert ring"; ObjectID = "KUK-79-BNj"; */
+"KUK-79-BNj.text" = "Alert ring";
+
+/* Class = "IBUILabel"; text = "Disconnect alert"; ObjectID = "L1R-TP-qFP"; */
+"L1R-TP-qFP.text" = "Disconnect alert";
+
+/* Class = "IBUILabel"; text = "Range alert"; ObjectID = "Lzz-Q0-r5c"; */
+"Lzz-Q0-r5c.text" = "Range alert";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Ovk-qI-3Vb"; */
+"Ovk-qI-3Vb.text" = "Label";
+
+/* Class = "IBUITextField"; text = "20000"; ObjectID = "Smb-oZ-6O7"; */
+"Smb-oZ-6O7.text" = "20000";
+
+/* Class = "IBUILabel"; text = "Off"; ObjectID = "TL6-Qz-8Xl"; */
+"TL6-Qz-8Xl.text" = "Off";
+
+/* Class = "IBUINavigationItem"; title = "SmartWacth"; ObjectID = "X5n-7C-hLk"; */
+"X5n-7C-hLk.title" = "SmartWacth";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Device Name"; ObjectID = "b0l-5m-fd7"; */
+"b0l-5m-fd7.headerTitle" = "Device Name";
+
+/* Class = "IBUILabel"; text = "In range"; ObjectID = "b6C-R9-rAv"; */
+"b6C-R9-rAv.text" = "In range";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "bcF-qf-P04"; */
+"bcF-qf-P04.title" = "< Back";
+
+/* Class = "IBUINavigationItem"; title = "Range size"; ObjectID = "cG3-d3-9Zm"; */
+"cG3-d3-9Zm.title" = "Range size";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "con-T3-2NG"; */
+"con-T3-2NG.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Connect"; ObjectID = "dsO-ch-5dO"; */
+"dsO-ch-5dO.normalTitle" = "Connect";
+
+/* Class = "IBUINavigationItem"; title = "Device"; ObjectID = "e2E-ag-gYl"; */
+"e2E-ag-gYl.title" = "Device";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "ebb-EV-muP"; */
+"ebb-EV-muP.text" = "Label";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "hOb-JJ-3lv"; */
+"hOb-JJ-3lv.title" = "< Back";
+
+/* Class = "IBUILabel"; text = "Off"; ObjectID = "hvr-fK-UgD"; */
+"hvr-fK-UgD.text" = "Off";
+
+/* Class = "IBUILabel"; text = "Out of range"; ObjectID = "iH0-EC-QeG"; */
+"iH0-EC-QeG.text" = "Out of range";
+
+/* Class = "IBUILabel"; text = "Out of range"; ObjectID = "jSq-ao-sb4"; */
+"jSq-ao-sb4.text" = "Out of range";
+
+/* Class = "IBUILabel"; text = "Far"; ObjectID = "m0W-6R-mns"; */
+"m0W-6R-mns.text" = "Far";
+
+/* Class = "IBUINavigationItem"; title = "计步器"; ObjectID = "n6A-Qf-pcv"; */
+"n6A-Qf-pcv.title" = "计步器";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "oUN-zm-Qth"; */
+"oUN-zm-Qth.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "状态"; ObjectID = "oon-TP-PrO"; */
+"oon-TP-PrO.title" = "状态";
+
+/* Class = "IBUILabel"; text = "Alert"; ObjectID = "qpT-eO-jnu"; */
+"qpT-eO-jnu.text" = "Alert";
+
+/* Class = "IBUITabBarItem"; title = "计步"; ObjectID = "rAY-Ws-72k"; */
+"rAY-Ws-72k.title" = "计步";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "rHz-xn-qYR"; */
+"rHz-xn-qYR.title" = "< Back";
+
+/* Class = "IBUINavigationItem"; title = "SmartWacth"; ObjectID = "ryE-z8-EuV"; */
+"ryE-z8-EuV.title" = "SmartWacth";
+
+/* Class = "IBUINavigationItem"; title = "计步设置"; ObjectID = "sKX-Nf-sUH"; */
+"sKX-Nf-sUH.title" = "计步设置";
+
+/* Class = "IBUIButton"; normalTitle = "Find device"; ObjectID = "ujI-kI-U9G"; */
+"ujI-kI-U9G.normalTitle" = "Find device";
+
+/* Class = "IBUINavigationItem"; title = "Alert"; ObjectID = "urP-OL-BRF"; */
+"urP-OL-BRF.title" = "Alert";
+
+/* Class = "IBUILabel"; text = "Far"; ObjectID = "vJQ-qe-wxa"; */
+"vJQ-qe-wxa.text" = "Far";
+
+/* Class = "IBUINavigationItem"; title = "When"; ObjectID = "w6c-fD-mUl"; */
+"w6c-fD-mUl.title" = "When";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Both the phone and BLE device ring or vibrate when the BLE device is disconnected"; ObjectID = "xal-7b-84G"; */
+"xal-7b-84G.footerTitle" = "Both the phone and BLE device ring or vibrate when the BLE device is disconnected";
+
+/* Class = "IBUILabel"; text = "When"; ObjectID = "xyc-Xv-ArI"; */
+"xyc-Xv-ArI.text" = "When";
+
+/* Class = "IBUILabel"; text = "Alert vibration"; ObjectID = "zVR-Oc-PQV"; */
+"zVR-Oc-PQV.text" = "Alert vibration";

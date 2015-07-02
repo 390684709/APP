@@ -1,0 +1,150 @@
+
+/* Class = "IBUILabel"; text = "Range size"; ObjectID = "2r4-ox-vEh"; */
+"2r4-ox-vEh.text" = "Range size";
+"S8J-Bu-QSf.title" = "Range size";
+"oeR-6q-tcR.text" = "Range size";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Both the phone and BLE device ring or vibrate when the BLE device meets the range alert conditions"; ObjectID = "3gq-ON-fT9"; */
+"3gq-ON-fT9.footerTitle" = "Both the phone and SmartWatch ring or vibrate when the SmartWatch meets the range alert conditions";
+"5oT-N2-yuZ.footerTitle" = "Both the phone and SmartWatch ring or vibrate when the SmartWatch meets the range alert conditions";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Range alert"; ObjectID = "3gq-ON-fT9"; */
+"3gq-ON-fT9.headerTitle" = "Range alert";
+
+/* Class = "IBUILabel"; text = "Version 1.1.1"; ObjectID = "5AI-Ob-DRO"; */
+"5AI-Ob-DRO.text" = "Version 1.1.7";
+
+/* Class = "IBUILabel"; text = "Alert"; ObjectID = "6LP-tU-UaZ"; */
+"6LP-tU-UaZ.text" = "Alert";
+
+/* Class = "IBUILabel"; text = "Disconnected"; ObjectID = "78M-6b-nAd"; */
+"78M-6b-nAd.text" = "Disconnected";
+
+/* Class = "IBUIButton"; normalTitle = "Forget this device"; ObjectID = "7Dk-kF-wCh"; */
+"7Dk-kF-wCh.normalTitle" = "Forget this device";
+
+/* Class = "IBUILabel"; text = "Near"; ObjectID = "Fsx-MO-osx"; */
+"Fsx-MO-osx.text" = "Near";
+"Cxi-gr-bhP.text" = "Near";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Range Size may change because of the device signal strength, Certain elements can weaken the strength such as our body, walls and other obstructions."; ObjectID = "IiS-HB-bkc"; */
+"IiS-HB-bkc.footerTitle" = "Range Size may change because of the device signal strength, Certain elements can weaken the strength such as our body, walls and other obstructions.";
+"mlJ-ES-ejP.footerTitle" = "Range Size may change because of the device signal strength, Certain elements can weaken the strength such as our body, walls and other obstructions.";
+
+/* Class = "IBUILabel"; text = "Middle"; ObjectID = "JEk-s0-9MI"; */
+"JEk-s0-9MI.text" = "Middle";
+"zTi-BD-QZk.text" = "Middle";
+
+/* Class = "IBUILabel"; text = "Ringtone"; ObjectID = "KUK-79-BNj"; */
+"KUK-79-BNj.text" = "Aert Ring";
+"ahf-Tv-LYa.text" = "Aert Ring";
+
+/* Class = "IBUILabel"; text = "Disconnect alert"; ObjectID = "L1R-TP-qFP"; */
+"L1R-TP-qFP.text" = "Disconnect alert";
+"yxA-aS-hkH.text" = "Disconnect alert";
+
+/* Class = "IBUILabel"; text = "Range alert"; ObjectID = "Lzz-Q0-r5c"; */
+"Lzz-Q0-r5c.text" = "Range alert";
+"5oT-N2-yuZ.headerTitle" = "Range alert";
+"RAm-37-yA0.text" = "Range alert";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Ovk-qI-3Vb"; */
+"Ovk-qI-3Vb.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Off"; ObjectID = "TL6-Qz-8Xl"; */
+"TL6-Qz-8Xl.text" = "Off";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "WNH-eU-gIR"; */
+"WNH-eU-gIR.title" = "< Back";
+
+/* Class = "IBUINavigationItem"; title = "Smart Watch"; ObjectID = "X5n-7C-hLk"; */
+"X5n-7C-hLk.title" = "Smart Watch";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Device"; ObjectID = "b0l-5m-fd7"; */
+"b0l-5m-fd7.headerTitle" = "Device Name";
+
+/* Class = "IBUILabel"; text = "In range"; ObjectID = "b6C-R9-rAv"; */
+"b6C-R9-rAv.text" = "In range";
+"JZy-iL-i0r.text" = "In range";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "bcF-qf-P04"; */
+"bcF-qf-P04.title" = "< Back";
+
+/* Class = "IBUINavigationItem"; title = "Range size"; ObjectID = "cG3-d3-9Zm"; */
+"cG3-d3-9Zm.title" = "Range size";
+
+/* Class = "IBUIButton"; normalTitle = "Connect"; ObjectID = "dsO-ch-5dO"; */
+"dsO-ch-5dO.normalTitle" = "Connect";
+"9K4-bp-NWF.normalTitle" = "Connect";
+
+/* Class = "IBUINavigationItem"; title = "Device"; ObjectID = "e2E-ag-gYl"; */
+"e2E-ag-gYl.title" = "Device";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "hOb-JJ-3lv"; */
+"hOb-JJ-3lv.title" = "< Back";
+
+/* Class = "IBUILabel"; text = "Out of range"; ObjectID = "iH0-EC-QeG"; */
+"iH0-EC-QeG.text" = "Out of range";
+"WaC-e0-RR7.text" = "Out of range";
+
+/* Class = "IBUILabel"; text = "Out of range"; ObjectID = "jSq-ao-sb4"; */
+"jSq-ao-sb4.text" = "Out of range";
+
+/* Class = "IBUILabel"; text = "Far"; ObjectID = "m0W-6R-mns"; */
+"m0W-6R-mns.text" = "Far";
+"4vJ-bo-biV.text" = "Far";
+
+/* Class = "IBUILabel"; text = "Alert"; ObjectID = "qpT-eO-jnu"; */
+"qpT-eO-jnu.text" = "Alert";
+"dLc-sW-1V2.title" = "Alert";
+"lNs-tD-M9w.text"  = "Alert";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "rHz-xn-qYR"; */
+"rHz-xn-qYR.title" = "< Back";
+"oVO-m5-kTR.title"= "< Back";
+"6Kr-ub-i7l.title"= "< Back";
+
+/* Class = "IBUINavigationItem"; title = "Smart Watch"; ObjectID = "ryE-z8-EuV"; */
+"ryE-z8-EuV.title" = "Smart Watch";
+"Hb7-td-krp.title" = "Smart Watch";
+
+/* Class = "IBUIButton"; normalTitle = "Disconnect"; ObjectID = "sXy-Pb-Moz"; */
+"sXy-Pb-Moz.normalTitle" = "Disconnect";
+
+/* Class = "IBUIButton"; normalTitle = "Find device"; ObjectID = "ujI-kI-U9G"; */
+"ujI-kI-U9G.normalTitle" = "Find device";
+
+/* Class = "IBUINavigationItem"; title = "Alert"; ObjectID = "urP-OL-BRF"; */
+"urP-OL-BRF.title" = "Alert";
+"wsh-pg-yTg.title" = "Alert";
+
+/* Class = "IBUILabel"; text = "Far"; ObjectID = "vJQ-qe-wxa"; */
+"vJQ-qe-wxa.text" = "Far";
+
+/* Class = "IBUINavigationItem"; title = "When"; ObjectID = "w6c-fD-mUl"; */
+"w6c-fD-mUl.title" = "When";
+"BaQ-b4-Ia3.title" = "When";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Both the phone and BLE device ring or vibrate when the BLE device is disconnected"; ObjectID = "xal-7b-84G"; */
+"xal-7b-84G.footerTitle" = "Both the phone and SmartWatch ring or vibrate when the SmartWatch is disconnected";
+"Ok1-c1-ybb.footerTitle" = "Both the phone and SmartWatch ring or vibrate when the SmartWatch is disconnected";
+
+/* Class = "IBUILabel"; text = "When"; ObjectID = "xyc-Xv-ArI"; */
+"xyc-Xv-ArI.text" = "When";
+"YuT-Ku-8ki.title" = "When";
+"bLh-zW-oBO.text" = "When";
+
+/* Class = "IBUILabel"; text = "Vibration"; ObjectID = "zVR-Oc-PQV"; */
+"zVR-Oc-PQV.text" = "Vibration";
+"kV2-Ld-Fux.text" = "Vibration";
+
+"bcF-qf-P04.text"="< Back";
+"oon-TP-PrO.title"="state";
+"Js5-ly-Cvu.title"="alert";
+"rAY-Ws-72k.title"="step";
+"Uzf-5h-tKe.title"="heart";
+"M8m-0B-RTR.title"="sleep";
+"iRL-7y-QoO.title"="state";
+"kxC-Ts-7PQ.title"="alert";
+"hgN-5B-pNr.title"="step";
+"lSh-gF-qoT.title"="sleep";
