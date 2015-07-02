@@ -12,6 +12,8 @@
 	<dict>
 		<key>8aadabb9-45f6-b948-ad83-414864bed252</key>
 		<string>http://192.168.7.8:9999/svn/HP4705-I</string>
+		<key>B4A34ECBD86533A784D9513AFAFF2908C1E4D22A</key>
+		<string>https://github.com/390684709/app.git</string>
 		<key>E7A08DBFEA5EC9EF5648651E45FDB60ADEE85FEC</key>
 		<string>192.168.0.144:/Users/mtk54283/git/uiproject</string>
 	</dict>
@@ -20,16 +22,28 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8aadabb9-45f6-b948-ad83-414864bed252</key>
+		<string>../../../../HP4705-I</string>
+		<key>B4A34ECBD86533A784D9513AFAFF2908C1E4D22A</key>
 		<string>../../..</string>
 		<key>E7A08DBFEA5EC9EF5648651E45FDB60ADEE85FEC</key>
 		<string>../../../../uiproject</string>
 	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/390684709/app.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8aadabb9-45f6-b948-ad83-414864bed252</string>
+	<string>B4A34ECBD86533A784D9513AFAFF2908C1E4D22A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B4A34ECBD86533A784D9513AFAFF2908C1E4D22A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>app</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>

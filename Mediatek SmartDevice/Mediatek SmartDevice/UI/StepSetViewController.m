@@ -28,6 +28,15 @@
     [_shengao2 setText:NSLocalizedString(@"Height", @"Height")];
     [_tizhong3 setText:NSLocalizedString(@"Weight", @"Weight")];
     [self.navigationItem setTitle:NSLocalizedString(@"Step Count Set", @"Step Count Set")];
+    if (!sen) {
+        if (!zhSP) {
+            [self.navigationController.navigationBar setTitleTextAttributes:
+             
+  @{NSFontAttributeName:[UIFont boldSystemFontOfSize:11],
+    
+    NSForegroundColorAttributeName:[UIColor blackColor]}];
+        }
+    }
     [self.navigationItem.leftBarButtonItem setTitle:NSLocalizedString(@"< Back", @"< Back")];
     [self.navigationItem.rightBarButtonItem setTitle:NSLocalizedString(@"Done >", @"Done >")];
     UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"< Back", @"< Back")

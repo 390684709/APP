@@ -78,8 +78,13 @@
     NSString * target=@"目标";
     NSString * haddone=@"步";
     if(!zhSP){
+        if (!sen) {
+            target=@"Objetivo";
+            haddone=@" pasos";
+        }else{
         target=@"target";
         haddone=@"step";
+        }
     }
     
     [percentLabel setText:[NSString stringWithFormat:@"%d%@",perdata,haddone]];

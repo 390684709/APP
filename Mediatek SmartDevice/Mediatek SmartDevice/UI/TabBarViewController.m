@@ -18,14 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if (deBugLog) {
-        UIAlertView * pay = [[UIAlertView alloc] initWithTitle:@"提示"
-                                                       message:[NSString stringWithFormat:@"我是TabBar，摩擦摩擦更时尚"]
-                                                      delegate:nil
-                                             cancelButtonTitle:@"确定"
-                                             otherButtonTitles:nil];
-        [pay show];
-    }
+//    if (deBugLog) {
+//        UIAlertView * pay = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                                       message:[NSString stringWithFormat:@"我是TabBar，摩擦摩擦更时尚"]
+//                                                      delegate:nil
+//                                             cancelButtonTitle:@"确定"
+//                                             otherButtonTitles:nil];
+//        [pay show];
+//    }
     // Do any additional setup after loading the view.
 }
 

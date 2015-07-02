@@ -57,7 +57,6 @@ typedef struct {
     int rangAlertThreshhold;
     bool disconnectAlertEnabler;
 }DeviceSetting;
-
 /* Service UUID */
 extern NSString *kLinkLossServiceUUIDString;
 extern NSString *kImmediateAlertServiceUUIDString;

@@ -285,16 +285,16 @@ int bletimesduan;
 //    [peripheral discoverServices:nil];
     [self toDiscoverServers];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"BleIsConnected" object:nil];
-    if (deBugLog) {
-        bletimeslian++;
-        self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
-                                              message:[NSString stringWithFormat:@"连%d辣",bletimeslian]
-                                             delegate:nil
-                                    cancelButtonTitle:@"确定"
-                                    otherButtonTitles:nil];
-        [self.pay show];
-        NSLog(@"连%d",bletimeslian);
-    }
+//    if (deBugLog) {
+//        bletimeslian++;
+//        self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                              message:[NSString stringWithFormat:@"连%d辣",bletimeslian]
+//                                             delegate:nil
+//                                    cancelButtonTitle:@"确定"
+//                                    otherButtonTitles:nil];
+//        [self.pay show];
+//        NSLog(@"连%d",bletimeslian);
+//    }
 }
 
 - (void)centralManager:(CBCentralManager *)central didFailToConnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error
@@ -309,16 +309,16 @@ int bletimesduan;
     self.isGetHardWearVersion   = NO;
     NSLog(@"连后断");
     [[NSNotificationCenter defaultCenter] postNotificationName:@"BleNotConnected" object:nil];
-    if (deBugLog) {
-        bletimesduan++;
-        self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
-                                              message:[NSString stringWithFormat:@"断%d辣",bletimesduan]
-                                             delegate:nil
-                                    cancelButtonTitle:@"确定"
-                                    otherButtonTitles:nil];
-        [self.pay show];
-        NSLog(@"断%d",bletimesduan);
-    }
+//    if (deBugLog) {
+//        bletimesduan++;
+//        self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                              message:[NSString stringWithFormat:@"断%d辣",bletimesduan]
+//                                             delegate:nil
+//                                    cancelButtonTitle:@"确定"
+//                                    otherButtonTitles:nil];
+//        [self.pay show];
+//        NSLog(@"断%d",bletimesduan);
+//    }
 }
 
 - (void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(NSError *)error
@@ -449,12 +449,12 @@ int bletimesduan;
                              
                 
                 if (deBugLog) {
-                    self.pay = [[UIAlertView alloc] initWithTitle:@"1"
+                   self.pay = [[UIAlertView alloc] initWithTitle:@"1"
                                                           message:[NSString stringWithFormat:@"获取%d,%d:%d",[self ToTrueShortNumber:firstStr],[self ToTrueShortNumber:middleHourStr],[self ToTrueShortNumber:middleMinStr]]
                                                          delegate:nil
                                                 cancelButtonTitle:@"确定"
                                                 otherButtonTitles:nil];
-                    [self.pay show];
+//                    [self.pay show];
                     [NSTimer scheduledTimerWithTimeInterval:3.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
                 }
             }
@@ -516,15 +516,15 @@ int bletimesduan;
 
                 
                 
-                if (deBugLog) {
-                    self.pay = [[UIAlertView alloc] initWithTitle:@"2"
-                                                          message:[NSString stringWithFormat:@"获取%d,%d:%d",[self ToTrueShortNumber:firstStr],[self ToTrueShortNumber:middleHourStr],[self ToTrueShortNumber:middleMinStr]]
-                                                         delegate:nil
-                                                cancelButtonTitle:@"确定"
-                                                otherButtonTitles:nil];
-                    [self.pay show];
-                    [NSTimer scheduledTimerWithTimeInterval:3.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
-                }
+//                if (deBugLog) {
+//                    self.pay = [[UIAlertView alloc] initWithTitle:@"2"
+//                                                          message:[NSString stringWithFormat:@"获取%d,%d:%d",[self ToTrueShortNumber:firstStr],[self ToTrueShortNumber:middleHourStr],[self ToTrueShortNumber:middleMinStr]]
+//                                                         delegate:nil
+//                                                cancelButtonTitle:@"确定"
+//                                                otherButtonTitles:nil];
+//                    [self.pay show];
+//                    [NSTimer scheduledTimerWithTimeInterval:3.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
+//                }
             }
             
 //            [[NSUserDefaults standardUserDefaults]setObject:HeartRateTemp forKey:@"isHeartRate"];
@@ -572,15 +572,15 @@ int bletimesduan;
             [[NSUserDefaults standardUserDefaults]synchronize];
         }
         
-        if (deBugLog) {
-            self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
-                                                  message:[NSString stringWithFormat:@"我获取%@",data]
-                                                 delegate:nil
-                                        cancelButtonTitle:@"确定"
-                                        otherButtonTitles:nil];
-            [self.pay show];
-            [NSTimer scheduledTimerWithTimeInterval:3.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
-        }
+//        if (deBugLog) {
+//            self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                                  message:[NSString stringWithFormat:@"我获取%@",data]
+//                                                 delegate:nil
+//                                        cancelButtonTitle:@"确定"
+//                                        otherButtonTitles:nil];
+//            [self.pay show];
+//            [NSTimer scheduledTimerWithTimeInterval:3.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
+//        }
         
         [[NSNotificationCenter defaultCenter] postNotificationName:@"OutputSleepArrayNotification" object:data];
     }
@@ -605,15 +605,15 @@ int bletimesduan;
             bletimes++;
             if (bletimes%50==0)
             {
-                if (deBugLog) {
-                    self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
-                                                        message:[NSString stringWithFormat:@"我获取%d次步数辣",bletimes]
-                                                         delegate:nil
-                                                cancelButtonTitle:@"确定"
-                                                otherButtonTitles:nil];
-                    [self.pay show];
-                    [NSTimer scheduledTimerWithTimeInterval:1.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
-                }
+//                if (deBugLog) {
+//                    self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                                        message:[NSString stringWithFormat:@"我获取%d次步数辣",bletimes]
+//                                                         delegate:nil
+//                                                cancelButtonTitle:@"确定"
+//                                                otherButtonTitles:nil];
+//                    [self.pay show];
+//                    [NSTimer scheduledTimerWithTimeInterval:1.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
+//                }
             }
         }
         NSLog(@"次数%d",bletimes);
@@ -624,15 +624,15 @@ int bletimesduan;
 {
     if (self.discoverPer.state == CBPeripheralStateConnected&&self.discoverPer!=nil&&self.sleepchara!=nil) {
         [self.discoverPer readValueForCharacteristic:self.sleepchara];
-        if (deBugLog) {
-            self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
-                                                  message:[NSString stringWithFormat:@"我来获取睡眠辣"]
-                                                 delegate:nil
-                                        cancelButtonTitle:@"确定"
-                                        otherButtonTitles:nil];
-            [self.pay show];
-            [NSTimer scheduledTimerWithTimeInterval:1.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
-        }
+//        if (deBugLog) {
+//            self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                                  message:[NSString stringWithFormat:@"我来获取睡眠辣"]
+//                                                 delegate:nil
+//                                        cancelButtonTitle:@"确定"
+//                                        otherButtonTitles:nil];
+//            [self.pay show];
+//            [NSTimer scheduledTimerWithTimeInterval:1.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
+//        }
     }
 }
 
@@ -640,15 +640,15 @@ int bletimesduan;
 {
     if (self.discoverPer.state == CBPeripheralStateConnected&&self.discoverPer!=nil&&self.heartratechara!=nil) {
         [self.discoverPer readValueForCharacteristic:self.heartratechara];
-        if (deBugLog) {
-            self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
-                                                  message:[NSString stringWithFormat:@"我来获取心率辣"]
-                                                 delegate:nil
-                                        cancelButtonTitle:@"确定"
-                                        otherButtonTitles:nil];
-            [self.pay show];
-            [NSTimer scheduledTimerWithTimeInterval:1.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
-        }
+//        if (deBugLog) {
+//            self.pay = [[UIAlertView alloc] initWithTitle:@"提示"
+//                                                  message:[NSString stringWithFormat:@"我来获取心率辣"]
+//                                                 delegate:nil
+//                                        cancelButtonTitle:@"确定"
+//                                        otherButtonTitles:nil];
+//            [self.pay show];
+//            [NSTimer scheduledTimerWithTimeInterval:1.0f  target:self  selector:@selector(stopStep) userInfo:nil  repeats:NO];
+//        }
     }
 }
 

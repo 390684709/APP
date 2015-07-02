@@ -15,6 +15,7 @@
     #import <Foundation/Foundation.h>
 #endif
 #define zhSP ([[[NSLocale preferredLanguages] objectAtIndex:0] isEqualToString:@"zh-Hans"])
+#define sen ([[[NSLocale preferredLanguages] objectAtIndex:0] isEqualToString:@"en"])
 #define h480   ([[UIScreen mainScreen]bounds].size.height==480)
 #define deBugLog true
 //#define deBugLog false

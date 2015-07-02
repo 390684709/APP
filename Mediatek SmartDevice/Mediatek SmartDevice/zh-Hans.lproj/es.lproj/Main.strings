@@ -15,13 +15,13 @@
 "5AI-Ob-DRO.text" = "Version 1.1.7";
 
 /* Class = "IBUILabel"; text = "Alert"; ObjectID = "6LP-tU-UaZ"; */
-"6LP-tU-UaZ.text" = "Modificar";
+"6LP-tU-UaZ.text" = "Notificaciones";
 
 /* Class = "IBUILabel"; text = "Disconnected"; ObjectID = "78M-6b-nAd"; */
 "78M-6b-nAd.text" = "Desconectado";
 
 /* Class = "IBUIButton"; normalTitle = "Forget this device"; ObjectID = "7Dk-kF-wCh"; */
-"7Dk-kF-wCh.normalTitle" = "Olvidar el dispositivo";
+"7Dk-kF-wCh.normalTitle" = "Olvidar este dispositivo";
 
 /* Class = "IBUILabel"; text = "Near"; ObjectID = "Fsx-MO-osx"; */
 "Fsx-MO-osx.text" = "Cerca";
@@ -58,7 +58,7 @@
 "WNH-eU-gIR.title" = "< Atrás";
 
 /* Class = "IBUINavigationItem"; title = "Smart Watch"; ObjectID = "X5n-7C-hLk"; */
-"X5n-7C-hLk.title" = "Smartwatch";
+"X5n-7C-hLk.title" = "BT Smartwatch";
 
 /* Class = "IBUITableViewSection"; headerTitle = "Device"; ObjectID = "b0l-5m-fd7"; */
 "b0l-5m-fd7.headerTitle" = "Dispositivo Name";
@@ -95,9 +95,9 @@
 "4vJ-bo-biV.text" = "Lejos";
 
 /* Class = "IBUILabel"; text = "Alert"; ObjectID = "qpT-eO-jnu"; */
-"qpT-eO-jnu.text" = "Modificar";
-"dLc-sW-1V2.title" = "Modificar";
-"lNs-tD-M9w.text"  = "Modificar";
+"qpT-eO-jnu.text" = "Notificaciones";
+"dLc-sW-1V2.title" = "Notificaciones";
+"lNs-tD-M9w.text"  = "Notificaciones";
 
 /* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "rHz-xn-qYR"; */
 "rHz-xn-qYR.title" = "< Atrás";
@@ -105,8 +105,8 @@
 "6Kr-ub-i7l.title"= "< Atrás";
 
 /* Class = "IBUINavigationItem"; title = "Smart Watch"; ObjectID = "ryE-z8-EuV"; */
-"ryE-z8-EuV.title" = "Smartwatch";
-"Hb7-td-krp.title" = "Smartwatch";
+"ryE-z8-EuV.title" = "BT Smartwatch";
+"Hb7-td-krp.title" = "BT Smartwatch";
 
 /* Class = "IBUIButton"; normalTitle = "Disconnect"; ObjectID = "sXy-Pb-Moz"; */
 "sXy-Pb-Moz.normalTitle" = "Desconectar";
@@ -115,8 +115,8 @@
 "ujI-kI-U9G.normalTitle" = "Buscar dispositivo";
 
 /* Class = "IBUINavigationItem"; title = "Alert"; ObjectID = "urP-OL-BRF"; */
-"urP-OL-BRF.title" = "Modificar";
-"wsh-pg-yTg.title" = "Modificar";
+"urP-OL-BRF.title" = "Notificaciones";
+"wsh-pg-yTg.title" = "Notificaciones";
 
 /* Class = "IBUILabel"; text = "Far"; ObjectID = "vJQ-qe-wxa"; */
 "vJQ-qe-wxa.text" = "Lejos";
@@ -140,11 +140,14 @@
 
 "bcF-qf-P04.text"="< Atrás";
 "oon-TP-PrO.title"="Estado";
-"Js5-ly-Cvu.title"="Modificar";
-"rAY-Ws-72k.title"="step";
+"Js5-ly-Cvu.title"="Notificaciones";
+"rAY-Ws-72k.title"="Pasos";
 "Uzf-5h-tKe.title"="heart";
-"M8m-0B-RTR.title"="sleep";
+"M8m-0B-RTR.title"="Sueño";
 "iRL-7y-QoO.title"="Estado";
-"kxC-Ts-7PQ.title"="Modificar";
-"hgN-5B-pNr.title"="step";
-"lSh-gF-qoT.title"="sleep";
+"kxC-Ts-7PQ.title"="Notificaciones";
+"hgN-5B-pNr.title"="Pasos";
+"lSh-gF-qoT.title"="Sueño";
+"jd8-Bu-6XY.normalTitle"="Olvidar este dispositivo";
+"zBj-PI-ShO.headerTitle"="Nombre de dispositivo";
+"ayV-ap-kfh.title"="< Atrás";

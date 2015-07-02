@@ -47,8 +47,13 @@
     NSString * target=@"睡眠时间";
     NSString * haddone=@"深度睡眠时间";
     if(!zhSP){
+        if (!sen) {
+            target=@"Tiempo de sueño";
+            haddone=@"Tiempo de sueño profundo";
+        }else{
         target=@"Sleep Time";
         haddone=@"Deep Sleep Time";
+        }
     }
     if (perdata%60<10) {
         [percentLabel setText:[NSString stringWithFormat:@"%@ %d:0%d",target,perdata/60,perdata%60]];
@@ -90,29 +95,29 @@
     UIImage *image = [UIImage imageWithContentsOfFile:path];
     [calImg setImage:image];
     
-    percentLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 125, 125)];
-    [percentLabel setFont:[UIFont systemFontOfSize:25]];
+    percentLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
     [percentLabel setTextColor:[UIColor colorWithRed:136/255.0 green:136/255.0 blue:136/255.0 alpha:1.0]];
+    [percentLabel setFont:[UIFont systemFontOfSize:12]];
 //    [percentLabel setTextColor:[UIColor blackColor]];
-    [percentLabel setTextAlignment:UITextAlignmentCenter];
+   // [percentLabel setTextAlignment:UITextAlignmentCenter];
     [percentLabel setBackgroundColor:[UIColor clearColor]];
     percentLabel.adjustsFontSizeToFitWidth = YES;
     percentLabel.minimumFontSize = 10;
     
-    targetLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 125, 125)];
-    [targetLabel setFont:[UIFont systemFontOfSize:20]];
+    targetLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
     [percentLabel setTextColor:[UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0]];
+    [targetLabel setFont:[UIFont systemFontOfSize:12]];
 //    [targetLabel setTextColor:[UIColor lightGrayColor]];
-    [targetLabel setTextAlignment:UITextAlignmentCenter];
+   // [targetLabel setTextAlignment:UITextAlignmentCenter];
     [targetLabel setBackgroundColor:[UIColor clearColor]];
     targetLabel.adjustsFontSizeToFitWidth = YES;
     targetLabel.minimumFontSize = 10;
     
-    calLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 125, 125)];
-    [calLabel setFont:[UIFont systemFontOfSize:20]];
+    calLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
     [percentLabel setTextColor:[UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0]];
+     [calLabel setFont:[UIFont systemFontOfSize:12]];
 //    [calLabel setTextColor:[UIColor lightGrayColor]];
-    [calLabel setTextAlignment:UITextAlignmentCenter];
+   // [calLabel setTextAlignment:UITextAlignmentCenter];
     [calLabel setBackgroundColor:[UIColor clearColor]];
     calLabel.adjustsFontSizeToFitWidth = YES;
     calLabel.minimumFontSize = 10;
