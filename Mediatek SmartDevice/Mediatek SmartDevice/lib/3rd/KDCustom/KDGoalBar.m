@@ -141,7 +141,7 @@
     calLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 125, 125)];
     [calLabel setFont:[UIFont systemFontOfSize:11]];
     [percentLabel setTextColor:[UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0]];
-//    [calLabel setTextColor:[UIColor lightGrayColor]];
+   // [calLabel setTextColor:[UIColor lightGrayColor]];
     [calLabel setTextAlignment:UITextAlignmentCenter];
     [calLabel setBackgroundColor:[UIColor clearColor]];
     calLabel.adjustsFontSizeToFitWidth = YES;
