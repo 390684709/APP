@@ -13,11 +13,14 @@
 #import "AlertService.h"
 #import "CalViewController.h"
 #import "LWBLEManager.h"
-
+#import "SOSCallDataManager.h"
+#import "FmpGattClient.h"
+#import "MTKBleProximityService.h"
 //NSString *btn_findDevice = NSLocalizedString(@"Find Device", @"Find Device");
 
 @interface MainTableViewController () <CachedBLEDeviceDelegate>
 
+@property (weak, nonatomic) IBOutlet UITableViewCell *HealthkitDataTableCell;
 @property (weak, nonatomic) IBOutlet UIImageView *mRingingImage;
 @property (weak, nonatomic) IBOutlet UILabel *mDeviceNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *mConnectionStateLabel;
@@ -48,6 +51,7 @@
 
 @synthesize mRingingImage;
 
+@synthesize HealthkitDataTableCell;
 //@synthesize mNoSignalImage;
 //@synthesize mOneSignalImage;
 //@synthesize mThreeSignalImage;
@@ -81,7 +85,7 @@
     [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(didFinishLaunchNotification:) name: kFinishLaunchNotification object: nil];
     
     [mManager updatePxpSetting:mDevice.mDeviceIdentifier alertEnabler:mDevice.mAlertEnabled range:mDevice.mRangeAlertEnabled rangeType:mDevice.mRangeType alertDistance:mDevice.mRangeValue disconnectAlertEnabler:mDevice.mDisconnectEnabled];
-    
+
 //    self.isConnected=NO;
 //    [self toScanBLE];
 }
@@ -91,10 +95,14 @@
     if ([MTKDeviceParameterRecorder getDeviceParameters].count == 0)
     {
         [self dismissViewControllerAnimated:YES completion:nil];
+        return;
+    }
+    [self updateUxState];
+    if ([self getiOSVersion] < 8.0f) {
+        HealthkitDataTableCell.userInteractionEnabled = NO;
+        HealthkitDataTableCell.alpha=0.4f;
     }
 }
-
-
 
 
 -(void)viewDidDisappear:(BOOL)animated
@@ -119,7 +127,6 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(bleIsConnected:) name:@"BleIsConnected" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(bleNotConnected:) name:@"BleNotConnected" object:nil];
 }
-
 
 
 #pragma mark - BLE ACTION
@@ -311,15 +318,42 @@
         {
             [mConnectionStateLabel setText:NSLocalizedString(@"Connected", @"Connected")];
         }
+        
+        if ([self getiOSVersion] >= 8.0f) {
+            HealthkitDataTableCell.userInteractionEnabled = YES;
+            HealthkitDataTableCell.alpha = 1.0f;
+        }
+        
+//        NSLog(@"[MainTableViewController]updateConnectionStateLabel:getkeycount = %d", [sosDataMgr getKeyCount]);
+//        if ([sosDataMgr getKeyCount] <= 0) {
+//            sosCallCell.userInteractionEnabled = NO;
+//            sosCallCell.alpha = 0.4f;
+//        } else {
+//            sosCallCell.userInteractionEnabled = YES;
+//            sosCallCell.alpha = 1.0f;
+//        }
     }
     else if (mDevice.mConnectionState == CONNECTION_STATE_CONNECTING)
     {
         [mConnectionStateLabel setText: NSLocalizedString(@"Connecting", @"Connecting")];
+        
+        HealthkitDataTableCell.userInteractionEnabled = NO;
+        HealthkitDataTableCell.alpha = 0.4f;
+        
+//        sosCallCell.userInteractionEnabled = NO;
+//        sosCallCell.alpha = 0.4f;
     }
     else
     {
         [mConnectionStateLabel setText: NSLocalizedString(@"Disconnected", @"Disconnected")];
         [mConnectionStateLabel setTextColor:[UIColor grayColor]];
+        
+        HealthkitDataTableCell.userInteractionEnabled = NO;
+        HealthkitDataTableCell.alpha = 0.4f;
+        
+//        sosCallCell.userInteractionEnabled = NO;
+//        sosCallCell.alpha = 0.4f;
+        
     }
 }
 
@@ -340,7 +374,7 @@
     }
     if (section == 1)
     {
-        return 1;
+        return 2;
     }
     if (section == 2)
     {
@@ -535,4 +569,17 @@
     [mManager finishLaunch];
 }
 
+-(void)didGetKeyCount {
+    NSLog(@"[MainTableViewController]didGetKeyCount");
+    //    handShakingIndicator.hidden = YES;
+    //    [handShakingIndicator stopAnimating];
+    
+//    sosCallCell.userInteractionEnabled = YES;
+//    sosCallCell.alpha = 1.0f;
+}
+
+
+- (float)getiOSVersion {
+    return [[[UIDevice currentDevice] systemVersion] floatValue];
+}
 @end

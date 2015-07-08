@@ -47,7 +47,6 @@
 		CE50D6DC19C930B000FB7DBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE50D6DE19C930B000FB7DBA /* Localizable.strings */; };
 		CE50D6E319C9793000FB7DBA /* ScannedDeviceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50D6E519C9793000FB7DBA /* ScannedDeviceTableCell.xib */; };
 		CE50D6EA19C9796400FB7DBA /* ScanTopTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50D6EC19C9796400FB7DBA /* ScanTopTableCell.xib */; };
-		CEEC9E851A3E8DF100E74EA7 /* libMTKBleManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1703CF19B5ABB6002EF7BA /* libMTKBleManager.a */; };
 		D99F872219AC822A00A828EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872119AC822A00A828EE /* Foundation.framework */; };
 		D99F872419AC822A00A828EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872319AC822A00A828EE /* CoreGraphics.framework */; };
 		D99F872619AC822A00A828EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872519AC822A00A828EE /* UIKit.framework */; };
@@ -98,6 +97,35 @@
 		D9A3951419B0149700B2ED46 /* ic_Launch_Image_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A3951119B0149700B2ED46 /* ic_Launch_Image_320x480.png */; };
 		D9A3951519B0149700B2ED46 /* ic_Launch_Image_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A3951219B0149700B2ED46 /* ic_Launch_Image_640x960.png */; };
 		D9A3951619B0149700B2ED46 /* ic_Launch_Image_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A3951319B0149700B2ED46 /* ic_Launch_Image_640x1136.png */; };
+		EA7E035B1B4CD35C000EC94D /* ic_call_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7E03571B4CD35C000EC94D /* ic_call_320x480.png */; };
+		EA7E035C1B4CD35C000EC94D /* ic_call_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7E03581B4CD35C000EC94D /* ic_call_640x1136.png */; };
+		EA7E035D1B4CD35C000EC94D /* ic_heart_list_22x22.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7E03591B4CD35C000EC94D /* ic_heart_list_22x22.png */; };
+		EA7E035E1B4CD35C000EC94D /* ic_heart_list_44x44.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7E035A1B4CD35C000EC94D /* ic_heart_list_44x44.png */; };
+		EA7E03611B4CF376000EC94D /* HealthDataMgrTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03601B4CF376000EC94D /* HealthDataMgrTableViewController.m */; };
+		EA7E03701B4CF3BB000EC94D /* SOSCallDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7E036F1B4CF3BB000EC94D /* SOSCallDataManager.m */; };
+		EA7E03711B4D0301000EC94D /* HealthKitManager.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E036D1B4CF39E000EC94D /* HealthKitManager.h */; };
+		EA7E03721B4D094A000EC94D /* Controller.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03621B4CF39E000EC94D /* Controller.h */; };
+		EA7E03731B4D094A000EC94D /* PdmsSleepService.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03631B4CF39E000EC94D /* PdmsSleepService.h */; };
+		EA7E03741B4D094A000EC94D /* BLEClientProfile.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03641B4CF39E000EC94D /* BLEClientProfile.h */; };
+		EA7E03751B4D094A000EC94D /* FmpGattClient.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03651B4CF39E000EC94D /* FmpGattClient.h */; };
+		EA7E03761B4D094A000EC94D /* Linker.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03661B4CF39E000EC94D /* Linker.h */; };
+		EA7E03771B4D094A000EC94D /* BodyTemperatureService.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03671B4CF39E000EC94D /* BodyTemperatureService.h */; };
+		EA7E03781B4D094A000EC94D /* GATTLinker.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03681B4CF39E000EC94D /* GATTLinker.h */; };
+		EA7E03791B4D094A000EC94D /* SOSCallOperator.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E03691B4CF39E000EC94D /* SOSCallOperator.h */; };
+		EA7E037A1B4D094A000EC94D /* SOSContact.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E036A1B4CF39E000EC94D /* SOSContact.h */; };
+		EA7E037B1B4D094A000EC94D /* BloodPressureService.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E036B1B4CF39E000EC94D /* BloodPressureService.h */; };
+		EA7E037C1B4D094A000EC94D /* DataParser.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E036C1B4CF39E000EC94D /* DataParser.h */; };
+		EA7E037D1B4D094A000EC94D /* DefaultAlert.h in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCF0519BAE0F10009400B /* DefaultAlert.h */; };
+		EA7E037E1B4D094A000EC94D /* MTKBlePeripheralManager.h in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCF0619BAE0F10009400B /* MTKBlePeripheralManager.h */; };
+		EA7E037F1B4D094A000EC94D /* VolumeController.h in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCF0719BAE0F10009400B /* VolumeController.h */; };
+		EA7E03801B4D094A000EC94D /* IAlert.h in Sources */ = {isa = PBXBuildFile; fileRef = CE9BCEF619BAB2590009400B /* IAlert.h */; };
+		EA7E03811B4D094A000EC94D /* AlertService.h in Sources */ = {isa = PBXBuildFile; fileRef = CE1703E119B6B77C002EF7BA /* AlertService.h */; };
+		EA7E03821B4D094A000EC94D /* FmpCentral.h in Sources */ = {isa = PBXBuildFile; fileRef = CE1703E219B6B77C002EF7BA /* FmpCentral.h */; };
+		EA7E03831B4D094A000EC94D /* MTKBleProximityService.h in Sources */ = {isa = PBXBuildFile; fileRef = CE1703DF19B6B609002EF7BA /* MTKBleProximityService.h */; };
+		EA7E03841B4D094A000EC94D /* MTKBleManager.h in Sources */ = {isa = PBXBuildFile; fileRef = CE1703DE19B6B5D8002EF7BA /* MTKBleManager.h */; };
+		EA7E03851B4D0959000EC94D /* SOSCallDataManager.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E036E1B4CF3BB000EC94D /* SOSCallDataManager.h */; };
+		EA7E03861B4D097C000EC94D /* HealthDataMgrTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = EA7E035F1B4CF376000EC94D /* HealthDataMgrTableViewController.h */; };
+		EA7E03881B4D0DFC000EC94D /* libMTKBleManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E03871B4D0DFC000EC94D /* libMTKBleManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,7 +205,6 @@
 		A19E71E81A77BE4D002E9A7C /* CalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = CalViewController.m; path = UI/CalViewController.m; sourceTree = "<group>"; };
 		A19E71E91A77BE4D002E9A7C /* CalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalViewController.h; path = UI/CalViewController.h; sourceTree = "<group>"; };
 		A19E71ED1A77BF9F002E9A7C /* NavBar64Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavBar64Blue.png; path = Resource/NavBar64Blue.png; sourceTree = "<group>"; };
-		CE1703CF19B5ABB6002EF7BA /* libMTKBleManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMTKBleManager.a; path = "Mediatek SmartDevice/lib/libMTKBleManager.a"; sourceTree = "<group>"; };
 		CE1703DE19B6B5D8002EF7BA /* MTKBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTKBleManager.h; path = include/MTKBleManager.h; sourceTree = "<group>"; };
 		CE1703DF19B6B609002EF7BA /* MTKBleProximityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTKBleProximityService.h; path = include/MTKBleProximityService.h; sourceTree = "<group>"; };
 		CE1703E119B6B77C002EF7BA /* AlertService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertService.h; path = include/AlertService.h; sourceTree = "<group>"; };
@@ -267,6 +294,27 @@
 		D9A3951119B0149700B2ED46 /* ic_Launch_Image_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_Launch_Image_320x480.png; path = Resource/ic_Launch_Image_320x480.png; sourceTree = "<group>"; };
 		D9A3951219B0149700B2ED46 /* ic_Launch_Image_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_Launch_Image_640x960.png; path = Resource/ic_Launch_Image_640x960.png; sourceTree = "<group>"; };
 		D9A3951319B0149700B2ED46 /* ic_Launch_Image_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_Launch_Image_640x1136.png; path = Resource/ic_Launch_Image_640x1136.png; sourceTree = "<group>"; };
+		EA7E03571B4CD35C000EC94D /* ic_call_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call_320x480.png; sourceTree = "<group>"; };
+		EA7E03581B4CD35C000EC94D /* ic_call_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call_640x1136.png; sourceTree = "<group>"; };
+		EA7E03591B4CD35C000EC94D /* ic_heart_list_22x22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_heart_list_22x22.png; sourceTree = "<group>"; };
+		EA7E035A1B4CD35C000EC94D /* ic_heart_list_44x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_heart_list_44x44.png; sourceTree = "<group>"; };
+		EA7E035F1B4CF376000EC94D /* HealthDataMgrTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthDataMgrTableViewController.h; sourceTree = "<group>"; };
+		EA7E03601B4CF376000EC94D /* HealthDataMgrTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthDataMgrTableViewController.m; sourceTree = "<group>"; };
+		EA7E03621B4CF39E000EC94D /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		EA7E03631B4CF39E000EC94D /* PdmsSleepService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdmsSleepService.h; sourceTree = "<group>"; };
+		EA7E03641B4CF39E000EC94D /* BLEClientProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEClientProfile.h; sourceTree = "<group>"; };
+		EA7E03651B4CF39E000EC94D /* FmpGattClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmpGattClient.h; sourceTree = "<group>"; };
+		EA7E03661B4CF39E000EC94D /* Linker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linker.h; sourceTree = "<group>"; };
+		EA7E03671B4CF39E000EC94D /* BodyTemperatureService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyTemperatureService.h; sourceTree = "<group>"; };
+		EA7E03681B4CF39E000EC94D /* GATTLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATTLinker.h; sourceTree = "<group>"; };
+		EA7E03691B4CF39E000EC94D /* SOSCallOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSCallOperator.h; sourceTree = "<group>"; };
+		EA7E036A1B4CF39E000EC94D /* SOSContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSContact.h; sourceTree = "<group>"; };
+		EA7E036B1B4CF39E000EC94D /* BloodPressureService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureService.h; sourceTree = "<group>"; };
+		EA7E036C1B4CF39E000EC94D /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		EA7E036D1B4CF39E000EC94D /* HealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKitManager.h; sourceTree = "<group>"; };
+		EA7E036E1B4CF3BB000EC94D /* SOSCallDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSCallDataManager.h; sourceTree = "<group>"; };
+		EA7E036F1B4CF3BB000EC94D /* SOSCallDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSCallDataManager.m; sourceTree = "<group>"; };
+		EA7E03871B4D0DFC000EC94D /* libMTKBleManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMTKBleManager.a; path = ../../libMTKBleManager.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,8 +322,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7E03881B4D0DFC000EC94D /* libMTKBleManager.a in Frameworks */,
 				A19CFBC71A78FF9A0036ED06 /* libsqlite3.dylib in Frameworks */,
-				CEEC9E851A3E8DF100E74EA7 /* libMTKBleManager.a in Frameworks */,
 				D99F872419AC822A00A828EE /* CoreGraphics.framework in Frameworks */,
 				D99F872619AC822A00A828EE /* UIKit.framework in Frameworks */,
 				D99F872219AC822A00A828EE /* Foundation.framework in Frameworks */,
@@ -404,6 +452,18 @@
 		CE1703DD19B6B5BE002EF7BA /* inlcude */ = {
 			isa = PBXGroup;
 			children = (
+				EA7E03621B4CF39E000EC94D /* Controller.h */,
+				EA7E03631B4CF39E000EC94D /* PdmsSleepService.h */,
+				EA7E03641B4CF39E000EC94D /* BLEClientProfile.h */,
+				EA7E03651B4CF39E000EC94D /* FmpGattClient.h */,
+				EA7E03661B4CF39E000EC94D /* Linker.h */,
+				EA7E03671B4CF39E000EC94D /* BodyTemperatureService.h */,
+				EA7E03681B4CF39E000EC94D /* GATTLinker.h */,
+				EA7E03691B4CF39E000EC94D /* SOSCallOperator.h */,
+				EA7E036A1B4CF39E000EC94D /* SOSContact.h */,
+				EA7E036B1B4CF39E000EC94D /* BloodPressureService.h */,
+				EA7E036C1B4CF39E000EC94D /* DataParser.h */,
+				EA7E036D1B4CF39E000EC94D /* HealthKitManager.h */,
 				CE9BCF0519BAE0F10009400B /* DefaultAlert.h */,
 				CE9BCF0619BAE0F10009400B /* MTKBlePeripheralManager.h */,
 				CE9BCF0719BAE0F10009400B /* VolumeController.h */,
@@ -438,8 +498,8 @@
 		D99F872019AC822A00A828EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA7E03871B4D0DFC000EC94D /* libMTKBleManager.a */,
 				A19CFBC61A78FF9A0036ED06 /* libsqlite3.dylib */,
-				CE1703CF19B5ABB6002EF7BA /* libMTKBleManager.a */,
 				D99F872119AC822A00A828EE /* Foundation.framework */,
 				D99F872319AC822A00A828EE /* CoreGraphics.framework */,
 				D99F872519AC822A00A828EE /* UIKit.framework */,
@@ -503,6 +563,10 @@
 		D99F875619AC841600A828EE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EA7E03571B4CD35C000EC94D /* ic_call_320x480.png */,
+				EA7E03581B4CD35C000EC94D /* ic_call_640x1136.png */,
+				EA7E03591B4CD35C000EC94D /* ic_heart_list_22x22.png */,
+				EA7E035A1B4CD35C000EC94D /* ic_heart_list_44x44.png */,
 				A14F266C1AC95692002AC461 /* icon_4_sleep.png */,
 				A14B65BB1A7CDFFA00566E4B /* icon_09.png */,
 				A14B65BC1A7CDFFA00566E4B /* icon_10.png */,
@@ -571,6 +635,8 @@
 				D99F87D919ACAEED00A828EE /* ScanTopTableCell.h */,
 				D99F87DA19ACAEED00A828EE /* ScanTopTableCell.m */,
 				CE50D6EC19C9796400FB7DBA /* ScanTopTableCell.xib */,
+				EA7E035F1B4CF376000EC94D /* HealthDataMgrTableViewController.h */,
+				EA7E03601B4CF376000EC94D /* HealthDataMgrTableViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -578,6 +644,8 @@
 		D99F877E19AC9DAD00A828EE /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				EA7E036E1B4CF3BB000EC94D /* SOSCallDataManager.h */,
+				EA7E036F1B4CF3BB000EC94D /* SOSCallDataManager.m */,
 				D99F879C19AC9E0800A828EE /* BackgroundManager.h */,
 				D99F879D19AC9E0800A828EE /* BackgroundManager.m */,
 				D99F879E19AC9E0800A828EE /* BLEManagerConstants.h */,
@@ -690,6 +758,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7E035C1B4CD35C000EC94D /* ic_call_640x1136.png in Resources */,
 				A167CC801A7A5C93006A73C7 /* heart_selected.png in Resources */,
 				A19E71EE1A77BF9F002E9A7C /* NavBar64Blue.png in Resources */,
 				D99F877419AC842700A828EE /* ic_ringing.png in Resources */,
@@ -709,12 +778,15 @@
 				D99F873A19AC822A00A828EE /* Images.xcassets in Resources */,
 				D99F877019AC842700A828EE /* ic_BLE_Launcher_58X58.png in Resources */,
 				D99F877919AC842700A828EE /* ic_signal_2.png in Resources */,
+				EA7E035B1B4CD35C000EC94D /* ic_call_320x480.png in Resources */,
 				A167CC841A7A5C93006A73C7 /* step_selected.png in Resources */,
 				A14F266D1AC95692002AC461 /* icon_4_sleep.png in Resources */,
 				A14B65BF1A7CDFFA00566E4B /* icon_10.png in Resources */,
 				D99F877B19AC842700A828EE /* ic_signal_4.png in Resources */,
+				EA7E035E1B4CD35C000EC94D /* ic_heart_list_44x44.png in Resources */,
 				CE50D6EA19C9796400FB7DBA /* ScanTopTableCell.xib in Resources */,
 				CE50D6E319C9793000FB7DBA /* ScannedDeviceTableCell.xib in Resources */,
+				EA7E035D1B4CD35C000EC94D /* ic_heart_list_22x22.png in Resources */,
 				CE50D6DC19C930B000FB7DBA /* Localizable.strings in Resources */,
 				D99F877C19AC842700A828EE /* sample.m4a in Resources */,
 				D99F877619AC842700A828EE /* ic_search_device.png in Resources */,
@@ -749,6 +821,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7E03861B4D097C000EC94D /* HealthDataMgrTableViewController.h in Sources */,
+				EA7E03851B4D0959000EC94D /* SOSCallDataManager.h in Sources */,
+				EA7E03721B4D094A000EC94D /* Controller.h in Sources */,
+				EA7E03731B4D094A000EC94D /* PdmsSleepService.h in Sources */,
+				EA7E03741B4D094A000EC94D /* BLEClientProfile.h in Sources */,
+				EA7E03751B4D094A000EC94D /* FmpGattClient.h in Sources */,
+				EA7E03761B4D094A000EC94D /* Linker.h in Sources */,
+				EA7E03771B4D094A000EC94D /* BodyTemperatureService.h in Sources */,
+				EA7E03781B4D094A000EC94D /* GATTLinker.h in Sources */,
+				EA7E03791B4D094A000EC94D /* SOSCallOperator.h in Sources */,
+				EA7E037A1B4D094A000EC94D /* SOSContact.h in Sources */,
+				EA7E037B1B4D094A000EC94D /* BloodPressureService.h in Sources */,
+				EA7E037C1B4D094A000EC94D /* DataParser.h in Sources */,
+				EA7E037D1B4D094A000EC94D /* DefaultAlert.h in Sources */,
+				EA7E037E1B4D094A000EC94D /* MTKBlePeripheralManager.h in Sources */,
+				EA7E037F1B4D094A000EC94D /* VolumeController.h in Sources */,
+				EA7E03801B4D094A000EC94D /* IAlert.h in Sources */,
+				EA7E03811B4D094A000EC94D /* AlertService.h in Sources */,
+				EA7E03821B4D094A000EC94D /* FmpCentral.h in Sources */,
+				EA7E03831B4D094A000EC94D /* MTKBleProximityService.h in Sources */,
+				EA7E03841B4D094A000EC94D /* MTKBleManager.h in Sources */,
+				EA7E03711B4D0301000EC94D /* HealthKitManager.h in Sources */,
 				A19E71E11A77BE1A002E9A7C /* KDGoalBar.m in Sources */,
 				A17A5DD91AD7E1CC005A0D50 /* UUBar.m in Sources */,
 				A19E71EB1A77BE4D002E9A7C /* CalViewController.m in Sources */,
@@ -776,12 +870,14 @@
 				D99F87CA19AC9E1300A828EE /* PxpConfigTableViewController.m in Sources */,
 				A17A5DDB1AD7E1CC005A0D50 /* UUChart.m in Sources */,
 				A15C18061A7B1EDA00BC6AAE /* StepSetViewController.m in Sources */,
+				EA7E03701B4CF3BB000EC94D /* SOSCallDataManager.m in Sources */,
 				D99F87DC19ACAEED00A828EE /* ScanTopTableCell.m in Sources */,
 				A15C180A1A7B219000BC6AAE /* Utils.m in Sources */,
 				A19560F61AC53D1B0018A84B /* KDGoalBarPercentLayerSleep.m in Sources */,
 				A14F266B1AC942A7002AC461 /* HeartRateViewController.m in Sources */,
 				D99F87A519AC9E0800A828EE /* BackgroundManager.m in Sources */,
 				A19E71E71A77BE1A002E9A7C /* LWBLEManager.m in Sources */,
+				EA7E03611B4CF376000EC94D /* HealthDataMgrTableViewController.m in Sources */,
 				A19E71E61A77BE1A002E9A7C /* KDGoalBarTwo.m in Sources */,
 				A19E71E41A77BE1A002E9A7C /* KDGoalBarPercentLayerTwo.m in Sources */,
 				A19E71E51A77BE1A002E9A7C /* KDGoalBarThree.m in Sources */,
@@ -930,7 +1026,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "b30657b8-9d19-4dd0-8c85-144391449a10";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -963,7 +1059,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE = "b30657b8-9d19-4dd0-8c85-144391449a10";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -974,8 +1070,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Alpha Telecom Technology Co., Ltd. (573K4LC8VX)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Alpha Telecom Technology Co., Ltd. (573K4LC8VX)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mediatek SmartDevice/Mediatek SmartDevice-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -985,27 +1082,11 @@
 				);
 				INFOPLIST_FILE = "Mediatek SmartDevice/Mediatek SmartDevice-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-				);
+				LIBRARY_SEARCH_PATHS = /Users/shiqin/Desktop;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1015,8 +1096,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Alpha Telecom Technology Co., Ltd. (573K4LC8VX)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Alpha Telecom Technology Co., Ltd. (573K4LC8VX)";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mediatek SmartDevice/Mediatek SmartDevice-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1026,27 +1108,11 @@
 				);
 				INFOPLIST_FILE = "Mediatek SmartDevice/Mediatek SmartDevice-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-					"$(PROJECT_DIR)/Mediatek\\ SmartDevice/lib",
-				);
+				LIBRARY_SEARCH_PATHS = /Users/shiqin/Desktop;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

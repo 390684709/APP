@@ -423,7 +423,6 @@
 {
     [self toGetHardware];
     [[BackgroundManager sharedInstance] stopConnectTimer];
-    
     [[BackgroundManager sharedInstance] unRegisterStateChangeDelegate:self];
 }
 
